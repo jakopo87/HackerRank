@@ -15,7 +15,7 @@ const lonelyinteger1 = a => {
 const lonelyinteger2 = a => +a.sort().join(" ").replace(/(\d+) \1/g, "");
 
 /* Array.reduce() + XOR */
-const lonelyinteger3 = a => a.reduce((v, n) => v ^ n, 0);
+const lonelyinteger = a => a.reduce((v, n) => v ^ n, 0);
 
 // -----------------------------------------
 
