@@ -51,5 +51,5 @@ async function testCase(path, caseNum) {
 
 }
 
-testCase("filling-jars/js", "00");
-testCase("filling-jars/js", "07");
+testCase("filling-jars", "00");
+testCase("filling-jars", "07");
